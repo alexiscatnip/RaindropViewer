@@ -43,9 +43,9 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          USERNAME_SECONDLIFE: ${{ SecondLife_1.USERNAME_SECONDLIFE }}
-          PASSWORD_SECONDLIFE: ${{ SecondLife_1.PASSWORD_SECONDLIFE }}
-          GRIDFRIENDLYNAME_SECONDLIFE: ${{ SecondLife_1.GRIDFRIENDLYNAME_SECONDLIFE }}
+          USERNAME_SECONDLIFE: ${{ secrets.USERNAME_SECONDLIFE }}
+          PASSWORD_SECONDLIFE: ${{ secrets.PASSWORD_SECONDLIFE }}
+          GRIDFRIENDLYNAME_SECONDLIFE: ${{ secrets.GRIDFRIENDLYNAME_SECONDLIFE }}
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           unityVersion: ${{ matrix.unityVersion }}
