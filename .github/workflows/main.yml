@@ -45,7 +45,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
           USERNAME_SECONDLIFE: ${{ secrets.USERNAME_SECONDLIFE }}
           PASSWORD_SECONDLIFE: ${{ secrets.PASSWORD_SECONDLIFE }}
-          GRIDFRIENDLYNAME_SECONDLIFE: ${{ secrets.GRIDFRIENDLYNAME_SECONDLIFE }}
+          GRIDFRIENDLYNAME_SECONDLIFE: ${{ secrets.GRIDFRIENDLNAME_SECONDLIFE }}
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           unityVersion: ${{ matrix.unityVersion }}
